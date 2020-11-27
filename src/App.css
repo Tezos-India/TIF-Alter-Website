@@ -26,7 +26,7 @@
 .MuiPaper-root, .MuiDrawer-paper, .MuiDrawer-paperAnchorLeft, .MuiPaper-elevation16{
   background-color: white !important;
   color: var(--tezos-blue) !important;
-  font-size: 25px !important;
+  font-size: 20px !important;
   width: 70vw !important;
 }
 .MuiToolbar-root, .MuiToolbar-regular, .MuiToolbar-gutters{

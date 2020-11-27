@@ -7,3 +7,57 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.header {
+  color: var(--tezos-white);
+  font-size: 58px;
+}
+.subHeader {
+  color: var(--tezos-white);
+  font-size: 20px;
+  margin-top: -20px !important;
+}
+.marginHeader {
+  margin: 100px 0 0 150px !important;
+}
+.buttons {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-top: 50px !important;
+}
+.githubBtn {
+  position: absolute !important;
+  color: white !important;
+  background-color: transparent !important;
+  border: 3px solid var(--tezos-white) !important;
+  text-align: center;
+  width: 130px !important;
+  font-size: 15px !important;
+  text-transform: inherit !important;
+  border-radius: 5px;
+}
+.learnMoreBtn {
+  color: var(--tezos-white);
+  margin-left: 180px !important;
+  margin-top: 10px !important;
+  cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 414px) {
+  .header {
+    font-size: 30px !important;
+    margin: 50px 100px 0 -150px !important;
+  }
+  .subHeader {
+    font-size: 15px !important;
+    margin: 20px 100px 0 -150px !important;
+  }
+  .buttons {
+    display: flex !important;
+    margin-left: -150px !important;
+  }
+  .learnMoreBtn {
+    margin-left: 150px !important;
+    margin-top: 10px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+  }
+}

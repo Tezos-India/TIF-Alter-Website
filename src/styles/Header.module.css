@@ -44,15 +44,17 @@
 }
 @media (min-width: 320px) and (max-width: 414px) {
   .headerImg {
-    width: 75vw !important;
-    margin-left: -5vw;
+    width: 55vw !important;
+    margin-left: 2vw;
   }
   .mobileHeaderButton {
     color: white !important;
     font-weight: bold;
     background: var(--tezos-blue) !important;
     height: 6vh !important;
-    width: 50vw !important;
+    width: 30vw !important;
+    font-size: 10px !important;
     border-radius: 8px !important;
+    display: flex !important;
   }
 }
