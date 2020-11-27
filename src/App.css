@@ -1,0 +1,39 @@
+:root {
+  --tezos-black: #1a1818;
+  --tezos-white: #ffffff;
+  --tezos-grey: #707070;
+  --tezos-text: #858A8F;
+  --tezos-background: #12141D;
+  --tezos-secondary-background:#1D1F28;
+  --tezos-blue:#377DFF;
+  --font-size-banner:50px;
+  --font-size-medium: 18px;
+  --font-size-mod-medium: 16px;
+  --font-size-semi-medium: 14px;
+  --font-size-big:24px;
+  --font-size-semi-large:32px;
+  --font-size-large:40px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.MuiPaper-root, .MuiDrawer-paper, .MuiDrawer-paperAnchorLeft, .MuiPaper-elevation16{
+  background-color: white !important;
+  color: var(--tezos-blue) !important;
+  font-size: 25px !important;
+  width: 70vw !important;
+}
+.MuiToolbar-root, .MuiToolbar-regular, .MuiToolbar-gutters{
+  padding: 0 !important;
+}
+.MuiSvgIcon-root{
+  color:white !important;
+  margin-top: 30px !important;
+  margin-left: 30px !important;
+}
