@@ -1,0 +1,41 @@
+.container{
+    height:105vh !important;
+    background: var(--tezos-secondary-background);
+}
+.alignCard{
+    display: flex !important;
+    flex-direction: row !important;
+    margin-left:15%;
+    padding-top: 10vh;
+}
+.marginLeft{
+    margin-left: 100px;
+}
+.cardImg{
+    width:5vw;
+    margin-top: 10px;
+}
+.title{
+    color:var(--tezos-white);
+    font-weight: bold;
+    font-size: var(--font-size-mod-medium);
+}
+.desc{
+    color:var(--tezos-text);
+    font-size: var(--font-size-semi-medium);
+    padding-right: 30px;
+}
+@media (min-width: 320px) and (max-width: 414px) {
+    .alignCard{
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 10px !important;
+        margin-top: -55px !important;
+    }
+    .container{
+        height: 300vh !important;
+    }
+    .marginLeft{
+        margin-top: 30px;
+    }
+}

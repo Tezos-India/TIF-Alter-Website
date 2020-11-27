@@ -45,7 +45,7 @@
 @media (min-width: 320px) and (max-width: 414px) {
   .headerImg {
     width: 55vw !important;
-    margin-left: 2vw;
+    margin-left: 2vw !important;
   }
   .mobileHeaderButton {
     color: white !important;
