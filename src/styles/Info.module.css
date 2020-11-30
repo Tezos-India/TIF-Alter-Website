@@ -1,5 +1,5 @@
 .container {
-  height: 110vh;
+  height: 120vh;
   background: var(--tezos-background);
   margin-top: -30px !important;
 }

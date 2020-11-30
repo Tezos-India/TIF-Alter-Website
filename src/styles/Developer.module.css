@@ -1,0 +1,60 @@
+.container {
+  height: 115vh;
+  background: var(--tezos-secondary-background);
+  font-family: "Inter", sans-serif !important;
+}
+.devImg {
+  width: 65vw;
+  height: 170vh;
+  margin-top: -25vh;
+  margin-left: -4vw;
+}
+.alignDiv {
+  display: flex;
+  flex-direction: row;
+}
+.alignText {
+  margin: 23vh 2vw 0 -12vw;
+}
+.header {
+  color: var(--tezos-white);
+  font-size: 65px;
+  margin: -10vh 8vw 0 1vw;
+  line-height: 80px;
+}
+.subHeader {
+  color: var(--tezos-text);
+  font-size: var(--font-size-medium);
+  margin: 2vh 10vw 0 1vw;
+}
+.alignInfoDiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: -4vw;
+  margin-top: 2vh;
+}
+.marginInfoDiv {
+  margin-left: 80px;
+}
+.textSize {
+  font-size: 30px;
+}
+.infoDesc {
+  color: var(--tezos-text);
+}
+.exploreDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.explore {
+  color: var(--tezos-blue);
+  font-size: 15px;
+  margin-left: 1vw;
+}
+.arrow {
+  width: 3vw;
+  height: 3vh;
+  padding-left: 10px;
+  margin-top: 15px;
+}
