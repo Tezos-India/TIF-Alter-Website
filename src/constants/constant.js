@@ -4,6 +4,7 @@ import miner from '../assets/miners.svg'
 import exchange from '../assets/exchange.svg'
 import contributors from '../assets/contributors.svg'
 import caseStudy from '../assets/case-study.svg'
+import tick from '../assets/tick.svg'
 const tezos = {
     activityOne: [
         {
@@ -40,4 +41,27 @@ const tezos = {
         },
     ],
 }
-export default tezos
+const info = {
+    infoRowOne:[
+        {
+            img:tick,
+            info:"Large Community",
+        },
+        {
+            img:tick,
+            info:"Study Material",
+        },
+    ],
+    infoRowTwo:[
+        {
+            img:tick,
+            info:"Tech Support",
+        },
+        {
+            img:tick,
+            info:"Mentors",
+        },
+    ],
+
+}
+export {tezos,info}

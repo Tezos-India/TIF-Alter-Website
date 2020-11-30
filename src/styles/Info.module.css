@@ -1,0 +1,60 @@
+.container {
+  height: 110vh;
+  background: var(--tezos-background);
+  margin-top: -30px !important;
+}
+.flexDiv {
+  display: flex;
+  flex-direction: row;
+}
+.infoImg {
+  width: 30vw;
+  padding: 80px;
+  margin: 50px 30px 0 30px;
+}
+.header {
+  color: var(--tezos-white);
+  font-size: 70px;
+  margin-top: 180px;
+  padding: 0 30px 0 100px;
+  line-height: 90px;
+}
+.subHeader {
+  color: var(--tezos-text);
+  font-size: 20px;
+  padding: 0 40px 20px 100px;
+}
+.exploreDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.explore {
+  color: var(--tezos-blue);
+  font-size: 15px;
+  margin-left: 100px;
+}
+.arrow {
+  width: 3vw;
+  height: 3vh;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+.infoDiv {
+  display: flex;
+  flex-direction: row;
+}
+.infoRowOne {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  padding: 10px;
+}
+.tickImg {
+  width: 3vw;
+}
+.infoDesc {
+  color: var(--tezos-text);
+  font-size: var(--font-size-mod-medium);
+  margin-left: 30px;
+}
