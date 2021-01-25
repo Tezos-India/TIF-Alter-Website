@@ -21,19 +21,6 @@
 .partnerLogo {
   width: 65vw;
   position: absolute;
-  top: 850px !important;
+  top: 850px;
   left: 250px;
-}
-@media (min-width: 320px) and (max-width: 414px) {
-  .partnerTitle {
-    margin-left: 10px !important;
-    margin-top: -20px !important;
-  }
-  .partnerLogo {
-    margin-left: -230px !important;
-  }
-  .line {
-    width: 250px !important;
-    left: 10px !important;
-  }
 }

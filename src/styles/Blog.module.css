@@ -1,8 +1,6 @@
 .container {
   background: var(--tezos-secondary-background);
-  height: 170vh;
-  margin-top: -8vh;
-  font-family: "Inter", sans-serif;
+  padding: 5vh 0;
 }
 .header {
   text-align: center;
@@ -120,55 +118,4 @@
 .carousel {
   margin-top: 50px !important;
   margin-left: -50px !important;
-}
-@media (max-width: 360px) {
-  .blogImg {
-    width: 75vw !important;
-  }
-  .blogLikes {
-    margin-left: -2px !important;
-  }
-  .blogStar {
-    margin-left: 12px !important;
-  }
-  .blogDate {
-    font-size: 14px !important;
-    margin-left: 8px !important;
-    margin-top: 18px !important;
-  }
-  .banner {
-    background-size: 100vw 20vh !important;
-    margin-top: 50px !important;
-  }
-  .header {
-    font-size: 25px !important;
-    margin-right: 30px !important;
-  }
-  .bannerBtn {
-    margin-left: 60px !important;
-    font-size: 10px !important;
-    height: 35px !important;
-    margin-top: -5px !important;
-  }
-  .bannerDesc {
-    font-size: 18px !important;
-    margin-left: -40px !important;
-    margin-top: -13px !important;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1280px) {
-  .bannerDesc {
-    margin-left: 20px !important;
-    margin-top: 30px !important;
-    font-size: 40px !important;
-  }
-  .bannerBtn {
-    margin-left: 300px !important;
-    width: 150px !important;
-    height: 70px !important;
-    margin-top: 40px !important;
-  }
-  .container {
-    height: 100vh !important;
-  }
 }

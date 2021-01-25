@@ -1,7 +1,6 @@
 .container {
   height: 115vh;
   background: var(--tezos-secondary-background);
-  font-family: "Inter", sans-serif !important;
 }
 .devImg {
   width: 65vw;

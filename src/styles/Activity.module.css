@@ -1,15 +1,13 @@
 .container{
-    height:105vh !important;
     background: var(--tezos-secondary-background);
+    padding: 15vh 0;
 }
 .alignCard{
     display: flex !important;
     flex-direction: row !important;
-    margin-left:15%;
-    padding-top: 10vh;
-}
-.marginLeft{
-    margin-left: 100px;
+    padding-top: 5vh;
+    justify-content: center;
+    gap: 0 80px;
 }
 .cardImg{
     width:5vw;
@@ -24,18 +22,4 @@
     color:var(--tezos-text);
     font-size: var(--font-size-semi-medium);
     padding-right: 30px;
-}
-@media (min-width: 320px) and (max-width: 414px) {
-    .alignCard{
-        display: flex !important;
-        flex-direction: column !important;
-        margin-left: 10px !important;
-        margin-top: -55px !important;
-    }
-    .container{
-        height: 300vh !important;
-    }
-    .marginLeft{
-        margin-top: 30px;
-    }
 }

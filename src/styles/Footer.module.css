@@ -3,7 +3,6 @@
   height: 300px;
   display: flex;
   flex-direction: column;
-  font-family: "Inter", sans-serif;
 }
 .footerLinks {
   display: flex;
@@ -21,11 +20,14 @@
   cursor: pointer;
 }
 .logo {
-  width: 10vw !important;
   display: flex;
   margin-left: 20% !important;
   justify-content: center;
   margin-top: 50px !important;
+  padding-bottom: 5vh;
+}
+.logo img{
+  width:30vw;
 }
 .social {
   margin-top: 3vh;
